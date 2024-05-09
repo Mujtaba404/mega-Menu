@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+ <!-- <link rel="icon" href="favicon.png">-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<header class="ui-menu --stretch">
+  <a href="/" class="ui-menu-label"><svg class="icon-stroke"><use xlink:href="#logo"></use></svg></a>
+  <label aria-label="Toggle flyout menu">
+    <input type="checkbox" data-sr>
+    <ui-icon type="burger-menu" size="xl"></ui-icon>
+  </label>
+  <div class="ui-menu-flyout">
+    <nav>
+        <label class="ui-menu-overlay">
+          <input type="radio" name="menu" id="menu-overlay" data-sr checked>
+        </label>
+        
+        <label class="ui-menu-label">
+          <input type="radio" name="menu" data-sr>
+          Products<ui-icon type="chevron down"></ui-icon>
+        </label>
+        <div class="ui-menu-expand">
+          <div class="ui-menu-panel ui-column --md-c-3">
+            <nav>
+              <strong>Category 1</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Category 2</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Category 3</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+          </div>
+        </div>
+      
+        <label class="ui-menu-label">
+          <input type="radio" name="menu" data-sr>
+          Shop<ui-icon type="chevron down"></ui-icon>
+        </label>
+        <div class="ui-menu-expand">
+          <div class="ui-menu-panel ui-column --md-c-3">
+            <nav>
+              <strong>Shop 1</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Shop 2</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+            <nav>
+              <strong>Category 3</strong><br>
+              <a href="#">Subcategory 1</a><br>
+              <a href="#">Subcategory 2</a><br>
+              <a href="#">Subcategory 3</a><br>
+              <a href="#">Subcategory 4</a><br>
+              <a href="#">Subcategory 5</a><br>
+              <a href="#">Subcategory 6</a><br>
+            </nav>
+          </div>
+        </div>
+    
+      <a href="#news" class="ui-menu-label">News</a>
+      <a href="#support" class="ui-menu-label">Support</a>
+      <a href="#company" class="ui-menu-label">Company</a>
+    </nav>
+    <nav>
+      <a href="#search" class="ui-menu-label"><svg class="icon-stroke"><use xlink:href="#search"></use></svg>Search</a>
+      <a href="#cart" class="ui-menu-label"><svg class="icon-stroke"><use xlink:href="#shopping-bag"></use></svg>Cart</a>
+    </nav>
+  </div>
+</header>
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <symbol id="shopping-bag" viewBox="0 0 24 24">
+      <path d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z"></path>
+      <path d="M9 11v-5a3 3 0 0 1 6 0v5"></path>
+    </symbol>
+    <symbol id="search" viewBox="0 0 24 24">
+      <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0"></path>
+      <path d="M21 21l-6 -6"></path>
+    </symbol>
+    <symbol id="logo" viewBox="0 0 512 512" fill="currentColor">
+      <path d="M193.431 261.016h125.138l-6.507 73.394L256 348.67l-56.062-14.26-3.879-43.707h-57.203l7.886 88.98L256 407.465l109.262-27.782 15.141-170.895H188.801l-5.061-57.106h201.727l5.053-56.986H121.481l14.743 166.32z"/>
+      <path d="m20.366 0 .984 10.627 41.882 452.361L256 512l192.767-49.012L491.634 0H20.366zm382.139 423.462L256 460.713l-146.505-37.251L74.888 49.711h362.223l-34.606 373.751z"/>
+    </symbol>
+  </defs>
+</svg>
+	
+  <h1>Hello, world!</h1>
+</body>
+</html>
+
+
